@@ -10,7 +10,7 @@ import time
 
 HOST = "anakena.dcc.uchile.cl"
 PORT = 1818
-TIMEOUT_SECONDS = 3
+TIMEOUT_SECONDS = 10
 
 initial_time = time.perf_counter()
 def Rdr(s):
